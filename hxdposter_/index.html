@@ -1,0 +1,252 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Experience HxD 2012</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media=all -->
+  <link href="css/reset.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../css/style.css" media="all" />
+  <link rel="stylesheet" href="../css/contax.css" media="all" /> 
+  <!-- end CSS-->
+  <script src="js/jquery-1.7.2.js"></script>
+
+  <script>
+	$(document).ready(function() {
+		$('#zoom-out').click(function(){
+			 window.open('#/overview','_self');
+			 $('#ajax-wrapper').hide();
+		});
+	});
+  </script>
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  
+  <script src="js/ajax.js"></script>
+  <script src="js/navigation.js"></script>
+  
+</head>
+
+<body class="impress-not-supported">
+	
+	<div class="fallback-message">
+	    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+	    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+	</div> 
+	
+	<div id="start-screen">
+		<h2>Welcome to an interactive review of HxD 2012! Use arrow keys, left nav or simply click the poster to discover!</h2>
+		<h2>If you are on a mobile phone, please visit <a href="http://hxdconf.com">hxdconf.com</a> or <a href="http://hxdconf.com/photos/MadPow_HxD_002.jpg">explore an image poster.</a>
+		</h2>
+		<a class="action-button" href="#start-here">Explore!</a>
+	</div>
+	
+	<nav id="main-nav">
+		<ul>
+			<li><a data-speaker="begin" href="#start-here">Welcome Address</a></li> 
+			<li><a data-speaker="timK" href="#tim-1">Tim Kieschnick</a></li>
+			<li><a data-speaker="jessicaF" href="#jessica-1">Jessica Floeh</a></li>
+			<li><a data-speaker="davidR" href="#david">David Rose</a></li>
+			<li><a data-speaker="garyH" href="#gary-1">Gary Hirschberg</a></li>
+			<li><a data-speaker="toddP" href="#todd-1">Todd Park</a></li>
+			<li><a data-speaker="bjF" href="#bj-1">BJ Fogg</a></li>
+			<li><a data-speaker="joshC" href="#josh-1">Josh Clark</a></li>
+			<li><a data-speaker="josephF" href="#joseph-1">Joseph Flaherty</a></li>
+			<li><a data-speaker="meredithD" href="#meredith-1">Meredith DeZutter</a></li>
+			<li><a data-speaker="johnW" href="#john-1">John Weiss</a></li>
+			<li><a data-speaker="brianD" href="#brian-1">Brian Dumaine &amp; Jonathan Bush</a></li>
+			<li><a data-speaker="closing" href="#the-end">Closing Address</a></li>		                             
+			<li style="margin-top:50px;">
+				<a href="https://twitter.com/#!/cassiemc" target="_blank">	
+					Thank you to the artist: Cassie McDaniel
+				 </a>
+			 </li>
+			<li>				 
+				<a href="https://twitter.com/#!/cassiemc" target="_blank"><div id="twitter-icon"><img src="../img/twitter-sm.png" /></div> 	
+					Follow Cassie at @cassiemc			
+				</a>  
+			</li> 
+		 </ul> 
+	</nav>
+   <div id="zoom-out" class="" style="display:none;position:absolute;background-color:white;bottom:0px;right:0px;width:80px;height:20px;padding:10px 0px 0px 10px;" data-z="" data-x="" data-y="" data-scale="3.5">zoom out</div>
+
+  <div id="impress">
+    
+    <div id="overview" class="step poster" data-x="0" data-y="0" data-scale="4">
+    </div>
+    
+    
+    <div id="start-here" class="step slide poster" data-speaker="welcome" data-z="" data-x="-1497" data-y="-1304">        
+    </div>
+		
+    
+    <div id="tim-1" class="tim step slide poster" data-speaker="timK" data-z="" data-x="-1497" data-y="-1019">        
+    </div>
+    
+    <div id="tim-2" class="tim step slide poster" data-speaker="timK" data-z="" data-x="-1497" data-y="-554">        
+    </div>
+    
+    <div id="tim-3" class="tim step slide poster" data-speaker="timK" data-z="" data-x="-1497" data-y="12">        
+    </div>
+    
+    <div id="jessica-1" class="jessica step slide poster" data-speaker="jessicaF" data-z="" data-x="-1497" data-y="582">        
+    </div>
+    
+    <div id="jessica-2" class="jessica step slide poster" data-speaker="jessicaF" data-z="" data-x="-1117" data-y="-1269">        
+    </div>
+    
+    <div id="david" class="david step slide poster" data-speaker="davidR" data-z="" data-x="-1117" data-y="-926">        
+    </div>
+    
+    <div id="gary-1" class="gary step slide poster" data-speaker="garyH" data-z="" data-x="-1117" data-y="-496">        
+    </div>
+    
+    <div id="gary-2" class="gary step slide poster" data-speaker="garyH" data-z="" data-x="-1117" data-y="-5">        
+    </div>
+   
+    <div id="gary-3" class="gary step slide poster" data-speaker="garyH" data-z="" data-x="-1117" data-y="564">        
+    </div>
+    
+    <div id="gary-4" class="gary step slide poster" data-speaker="garyH" data-z="" data-x="-759" data-y="-1155">        
+    </div>
+    
+    <div id="gary-5" class="gary step slide poster" data-speaker="garyH" data-z="" data-x="-759" data-y="-659">        
+    </div>
+    
+    <div id="gary-6" class="gary step slide poster" data-speaker="garyH" data-z="" data-x="-759" data-y="-94">        
+    </div>
+    
+    <div id="todd-1" class="todd step slide poster" data-speaker="toddP" data-z="" data-x="-759" data-y="545">        
+    </div>
+    
+    <div id="todd-2" class="todd step slide poster" data-speaker="toddP" data-z="" data-x="-382" data-y="-1112">        
+    </div>
+    
+    <div id="todd-3" class="todd step slide poster" data-speaker="toddP" data-z="" data-x="-382" data-y="-548">        
+    </div>
+    
+    <div id="todd-4" class="todd step slide poster" data-speaker="toddP" data-z="" data-x="-382" data-y="-27">        
+    </div>
+    
+    <div id="bj-1" class="bj step slide poster" data-speaker="bjF" data-z="" data-x="-382" data-y="544">        
+    </div>
+    
+    <div id="bj-2" class="bj step slide poster" data-speaker="bjF" data-z="" data-x="4" data-y="-1137">        
+    </div>
+    
+    <div id="bj-3" class="bj step slide poster" data-speaker="bjF" data-z="" data-x="4" data-y="-679">        
+    </div>
+    
+    <div id="josh-1" class="josh step slide poster" data-speaker="joshC" data-z="" data-x="4" data-y="-180">        
+    </div>
+    
+    <div id="josh-2" class="josh step slide poster" data-speaker="joshC" data-z="" data-x="4" data-y="334">        
+    </div>
+    
+    <div id="josh-3" class="josh step slide poster" data-speaker="joshC" data-z="" data-x="4" data-y="703">        
+    </div>
+    
+    <div id="josh-4" class="josh step slide poster" data-speaker="joshC" data-z="" data-x="370" data-y="-1137">        
+    </div>
+    
+    <div id="josh-5" class="josh step slide poster" data-speaker="joshC" data-z="" data-x="370" data-y="-599">        
+    </div>
+    
+    <div id="josh-6" class="josh step slide poster" data-speaker="joshC" data-z="" data-x="370" data-y="-172">        
+     </div>
+     
+     <div id="joseph-1" class="joseph step slide poster" data-speaker="josephF" data-z="" data-x="370" data-y="267">        
+      </div>
+      
+      <div id="joseph-2" class="joseph step slide poster" data-speaker="josephF" data-z="" data-x="370" data-y="708">        
+      </div>
+       
+      <div id="meredith-1" class="meredith step slide poster" data-speaker="meredithD" data-z="" data-x="741" data-y="-1121">        
+      </div>
+      
+      <div id="meredith-2" class="meredith step slide poster" data-speaker="meredithD" data-z="" data-x="741" data-y="-556">        
+      </div>
+      
+      <div id="meredith-3" class="meredith step slide poster" data-speaker="meredithD" data-z="" data-x="741" data-y="-126">        
+      </div>
+      
+      <div id="john-1" class="john step slide poster" data-speaker="johnW" data-z="" data-x="741" data-y="248">        
+      </div>
+      
+      <div id="john-2" class="john step slide poster" data-speaker="johnW" data-z="" data-x="741" data-y="670">        
+      </div>
+      
+      <div id="john-3" class="john step slide poster" data-speaker="johnW" data-z="" data-x="1121" data-y="-1154">        
+      </div>
+      
+      <div id="brian-1" class="brian step slide poster" data-speaker="brianD" data-z="" data-x="1121" data-y="-617">        
+      </div>
+      
+      <div id="brian-2" class="brian step slide poster" data-speaker="brianD" data-z="" data-x="1121" data-y="-15">        
+      </div>
+      
+      <div id="the-end" class="step slide poster" data-speaker="closing" data-x="1121" data-y="585" data-z="" data-scale="1">        
+      </div>
+
+			<!-- <div id="zoom-in" class="step slide poster" style="font-size:8em;text-align:center;height:150px; width:150px; position:absolute; background:white; top:1000px;left:1250px;" data-scale=".75"> +       
+			      </div> --> 
+			<!-- <div style="position:relative;">
+						<div id="zoom-out" class="step slide poster" style="font-size:.8em;text-align:center;height:12px; width:12px; position:fixed; background:white; top:1100px;left:1200px;" data-scale="3.5">  -      
+									      </div>
+									
+						 </div>  -->
+              
+  </div> <!-- end #impress div -->
+
+	<!-- <div id="zoom-out-trigger" style="position:absolute; bottom:0px; right:0px; height:50px; width:100px;">I am the trigger</div> -->
+  
+  <div id="ajax-tabs" class="pagination">
+  				    <div>
+  								<input type="radio" id="radio-1-1" rel="tab-group-1" value="1-1" class="more" href="#first-item"/>
+  								<label class="tab-label" for="radio-1-1" id="abstract">Abstract</label>
+  							</div>
+  				       <div>                                                 
+  								<input type="radio" id="radio-1-2" rel="tab-group-1" value="1-2" class="more" href="#second-item" />
+  								<label class="tab-label" for="radio-1-2">Bio</label>
+  							</div>
+  				       <div>
+  								<input type="radio" id="radio-1-3" rel="tab-group-1" value="1-3" class="more" href="#third-item" />
+  								<label class="tab-label" for="radio-1-3">Video</label>
+  							</div> 
+								 <div>
+	  								<input type="radio" id="radio-1-4" rel="tab-group-1" value="1-4" class="more" href="#fourth-item" />
+	  								<label class="tab-label" for="radio-1-4">Slides</label>
+	  							</div>
+  </div> <!-- end pagination -->
+  <div id="ajax-wrapper">
+	  <div id="ajax">
+
+	  </div>
+   </div>
+
+  <!-- // <script src="js/data-z.js"></script> -->
+  <script src="js/impress.js"></script>
+  <script>impress().init();</script>
+    
+</body>
+
+</html>

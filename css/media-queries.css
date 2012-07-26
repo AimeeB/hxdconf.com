@@ -1,0 +1,134 @@
+@media all and (max-width:1200px and min-width:726px) {
+h1.headline {
+		font-size:3em;
+		}
+.container_12 .grid_6 {
+		width: 100%;
+	}
+.container_12 .grid_8 {
+	width:100%;
+	}	
+#twitter-feed {
+	float:left;
+	}
+#past-photos {
+		clear:none;
+	}
+.container_12 .grid_4, .container_12 .grid_4 {
+			width: 48%;
+		}
+.keynote-box .grid_3 {
+		width:33.33333%;
+		margin:0%;
+	}
+}
+@media all and (max-width:725px and min-width:526px) {
+h1.headline {
+	font-size:2em;	
+	}
+	.container_12 .grid_4,
+	.container_12 .grid_4 {
+				width: 100%;
+			}
+.video-div {
+		float:none;
+		width:100%;
+			}
+.speaker-content {
+	width:100%;
+			}
+body {
+		font-size:12px;
+	}
+.keynote-box .grid_3 {
+		width:48%;
+		margin:0%;
+	}
+#speaker-list .grid_3 {
+		width:100%;
+	}
+}
+@media (max-width:525px) {
+#organizers {
+	padding:0em 0em 0em 3em;
+}
+	body {
+			font-size:10px;
+		}
+header {
+	position:fixed;
+	top:8.5em;
+}
+#logo {
+	width:40%;
+}
+#logo img {
+	max-width:100%;
+}
+#organizers {
+	padding-top:3em;
+	padding-left:1em;
+}
+#organizers a {
+	width:33.3333%;
+}
+#main-nav ul {
+	left:0px;
+	top:0px;
+	width:100%;
+	margin:0px auto;
+}
+#main-nav ul li {
+	display:inline;
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:.65em;
+	float:left;
+	clear:none;
+	font-size:1.2em;
+	background-color:#4bb;
+	color:white;
+	padding:.5em 0em;
+	width:28%
+	}
+#main-nav li.mobile-bottom {
+	clear:left;
+	float:right;
+}
+#main-nav a {
+/*	border-bottom: 2px solid #4bb;
+*/
+	background-color:#4bb;
+	color:white;
+	padding:0em;
+}
+#main-nav a:hover {
+	background-color:none;
+}
+#main-nav ul li#social-media-icons {
+	display:none;
+}
+#main-nav li#social-media-icons-mobile {
+	display:block;
+	text-align:right;
+}
+#main-nav ul li#social-media-icons-mobile a {
+	display:inline;
+	float:left;
+	/*width:1.1em;
+		height:1.1em;*/
+	clear:none;
+	border-bottom:none;
+	}
+#main-nav a.social-media-icon:hover img {
+		top:0px;
+	}
+#main-nav a:hover {
+	padding:0em;
+	background-color:#4bb;
+}
+#date-and-place {
+	margin:2em 0;
+}
+
+}

@@ -1,0 +1,191 @@
+.twtr-widget {
+    font-family: "lucida grande",lucida,tahoma,helvetica,arial,sans-serif !important;
+    font-size: 12px !important;
+    position: relative;
+}
+.twtr-fullscreen {
+    font-size: 220% !important;
+}
+.twtr-fullscreen .twtr-new-results {
+}
+.twtr-inactive {
+    display: none;
+}
+.twtr-widget a img {
+    border: 0 none !important;
+}
+.twtr-doc {
+    border-radius: 5px 5px 5px 5px;
+    font-weight: normal;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+}
+.twtr-bd {
+    padding: 0 1px;
+}
+.twtr-widget .twtr-tweet-wrap {
+    overflow: hidden;
+    padding: 6px 8px;
+}
+.twtr-fullscreen .twtr-tweet-wrap {
+    padding: 20px;
+}
+.twtr-widget .twtr-tweet {
+    border-bottom: 1px dotted #DDDDDD;
+    overflow: hidden;
+}
+.twtr-widget-profile img.twtr-profile-img {
+    border: 0 none !important;
+    display: block;
+    float: left;
+    height: 31px;
+    width: 31px;
+}
+.twtr-widget h3, .twtr-widget h4, .twtr-widget p {
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+}
+.twtr-widget-profile h3, .twtr-widget-profile h4 {
+    margin: 0 0 0 40px !important;
+}
+.twtr-widget h3 {
+    font-size: 11px !important;
+    font-weight: normal !important;
+}
+.twtr-widget h4 {
+    font-size: 16px !important;
+}
+.twtr-widget em, .twtr-widget .twtr-new-results {
+    display: block;
+    font-size: 9px;
+    font-style: normal;
+    margin-top: 2px;
+}
+.twtr-widget .twtr-new-results {
+    bottom: 5px;
+    display: block;
+    line-height: 0.9;
+    margin: 0 auto -10px !important;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+}
+.twtr-results-inner {
+    bottom: -2px;
+    font-size: 100%;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 4px 0;
+    position: relative;
+    text-align: center;
+    width: 40%;
+    z-index: 2;
+}
+.twtr-results-hr {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px dotted #DDDDDD;
+    bottom: 7px;
+    height: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.twtr-new-results span {
+    display: block;
+    font-size: 9px !important;
+    position: relative;
+    top: -14px;
+    z-index: 3;
+}
+.twtr-fullscreen .twtr-new-results span {
+    font-size: 24px !important;
+}
+.twtr-hd {
+    overflow: hidden;
+    padding: 0px;
+	padding-bottom:10px;
+    position: relative;
+}
+.twtr-fullscreen .twtr-hd {
+    height: 0;
+    padding: 0;
+}
+.twtr-timeline {
+    border-radius: 6px 6px 6px 6px;
+    height: 225px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.twtr-scroll .twtr-timeline {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.twtr-widget .twtr-tweet:last-child {
+    border-bottom-width: 0;
+}
+.twtr-ft {
+    position: relative;
+}
+.twtr-ft div {
+    overflow: hidden;
+    padding: 10px;
+}
+.twtr-ft span {
+    float: right;
+    text-align: right;
+}
+.twtr-ft a {
+    display: block;
+    float: left;
+}
+.twtr-ft a img {
+    position: relative;
+    top: -2px;
+	width:90px;
+}
+.twtr-ft span a {
+    float: none;
+}
+.twtr-avatar {
+    display: block;
+    float: left;
+    height: 40px;
+    overflow: hidden;
+    width: 40px;
+}
+.twtr-fullscreen .twtr-avatar {
+    height: 80px;
+    width: 80px;
+}
+.twtr-img {
+    height: 25px;
+    width: 25px;
+}
+.twtr-img img {
+    height: 30px;
+    width: 30px;
+}
+.twtr-fullscreen .twtr-img img {
+    height: 72px;
+    width: 72px;
+}
+.twtr-fullscreen a.twtr-join-conv {
+    display: none;
+}
+.twtr-tweet-text {
+    margin-left: 40px;
+}
+.twtr-fullscreen .twtr-tweet-text {
+    margin-left: 90px;
+}
+.twtr-doc a {
+    text-decoration: none !important;
+}
+.twtr-doc a:hover {
+    text-decoration: underline !important;
+}

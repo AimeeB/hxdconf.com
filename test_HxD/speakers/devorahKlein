@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>  <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>  <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+ <meta charset="utf-8">
+
+ <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+    More info: h5bp.com/b/378 -->
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+ <title></title>
+ <meta name="description" content="">
+ <meta name="author" content="">
+
+ <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+
+ <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+ <!-- CSS: implied media=all -->
+ <!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../css/text.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../css/grid.css" media="screen" />
+	<!-- <link rel="stylesheet" type="text/css" href="../css/layout.css" media="screen" /> -->
+	<link rel="stylesheet" type="text/css" href="../css/nav.css" media="screen" />
+	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="../css/ie6.css" media="screen" /><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="../css/ie.css" media="screen" /><![endif]--> 
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/contax.css">
+	<link rel="stylesheet" href="../css/icon-font.css">
+	<link rel="stylesheet" href="../css/tabs.css">
+	<script src="js/twitter.js"></script>
+	<link rel="stylesheet" href="../css/twitter.css">
+	<link rel="stylesheet" href="../css/colorbox.css">
+	
+ <!-- end CSS-->
+
+	<style type="text/css">
+.loader { border: 0 none; float: left; clear: both; margin: 100px 0 0 200px; }
+</style>
+
+</head>
+<body>
+<div class="speaker-lightbox">
+	<img class="speaker-profile" src="../img/profile-devorahKlein.jpg" alt="Devorah Klein" />
+<div class="profile-content">
+<h3 class="speaker-name">Devorah Klein</h3>
+<h5 class="speaker-title">PhD&nbsp;Principal, Human Centered Design, <a href="http://continuuminnovation.com" target="_blank">Continuum</a></h5>
+<div class="clearfix"></div>
+<h5 class="">DESIGNING A HEALTHCARE ECOSYSTEM</h5> 
+<p class="body-text">What does it mean to experience healthcare? More often than not, the experience is more than a device, more than a piece of software, more than a caregiver, more than a place. Healthcare is most frequently experienced as a combination of people, environments, tools, and technology – in other words, a service. For a healthcare services to be successful, we need to do two things: take a holistic design approach, and design for changing needs over time. This is especially true when designing for behavior change – an increasingly common goal in healthcare – because people’s needs change as their situation evolves.</p>
+<h5 class="speech-title">Speaker Bio</h5> 
+<p class="body-text">A psychologist and designer, Devorah is passionate about helping people meet their goals. Whether the goal is to lose weight, control insulin levels, or remember to change hearing aid batteries, Devorah works to understand people’s needs and barriers to change. She believes in creating holistic experiences, using multiple design touchpoints– tools, products, services, environments – to support people as their needs change and evolve.</p>
+
+<p class="body-text">At Continuum, Devorah has been exploring how to design for failure – what happens when someone tries to change their behavior and trips up? Can we design for safe failure and quick recovery? She’s working on projects to better understand people’s  mindsets and how to build robust mental models that let people flexibly adapt to changing contexts, She’s also fascinated by the rise of rewards programs and the gamification of behavior change – if you could design a rewards program to discourage change, how different would it be from what’s currently out there?</p>
+
+<p class="body-text">With over 10 years of experience, her portfolio includes systems for supporting weight loss, smoking cessation, and HIV testing, and treating diabetes, asthma, rheumatoid arthritis, multiple sclerosis, and erectile dysfunction. Clients have included Lilly, GSK, St. Jude Medical, and Abiomed. Prior to joining Continuum, Devorah created the Adherence Design offering at IDEO. She got her Ph.D. in Cognitive Psychology from the University of Illinois.</p>	
+
+</div>
+</div>
+</body>
+</html>

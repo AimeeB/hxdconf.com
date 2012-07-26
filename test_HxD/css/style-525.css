@@ -1,0 +1,115 @@
+
+@media (max-width:525px) {
+	#organizers {
+		padding:0em 0em 0em 3em; 
+		left:-4px;
+		top:40px;
+		}
+	  #organizers-logos img {
+		   max-width:15%;
+	}
+		body {
+				font-size:10px;
+			}
+	header {
+		position:absolute;
+		top:80px;
+	}
+	#logo {
+		width:40%;
+	}
+	#logo img {
+		max-width:100%;
+	}
+	#organizers {
+		padding-top:3em;
+		padding-left:1em;
+	}
+	#organizers a {
+		width:33.3333%;
+	}
+	#main-nav ul {
+		left:0px;
+		top:0px;
+		width:100%;
+		margin:0px auto;
+	}
+	#main-nav ul li {
+		display:inline;
+		text-transform:uppercase;
+		text-align:center;
+		margin-top:.65em;
+		float:left;
+		clear:none;
+		font-size:1.2em;
+		background-color:#4bb;
+		color:white;
+		padding:.5em 0em;
+		width:22%;
+		}
+	#main-nav li.mobile-bottom {
+		width:28%;
+		clear:left;
+		float:right;
+	}
+	#main-nav a {
+/*		border-bottom: 2px solid #4bb;
+*/
+		background-color:#4bb;
+		color:white;
+		padding:0em;
+	}
+	#main-nav a:hover {
+		background-color:none;
+	}
+	#main-nav ul li#social-media-icons {
+		display:none;
+	}
+	#main-nav li#social-media-icons-mobile {
+		display:block;
+		text-align:right;
+	}
+	#main-nav ul li#social-media-icons-mobile a {
+		display:inline;
+		float:left;
+		/*width:1.1em;
+			height:1.1em;*/
+		clear:none;
+		border-bottom:none;
+		}
+	#main-nav a.social-media-icon:hover img {
+			top:0px;
+		}
+	#main-nav a:hover {
+		padding:0em;
+		background-color:#4bb;
+	}
+	#date-and-place {
+		margin:2em 0;
+	}  
+	#footer-wrapper article.grid_3, #footer-wrapper article.grid_4, #footer-wrapper article.grid_5  {
+		width:100%; 
+		margin-top:20px;
+	} 
+	#sponsors {
+		display:none;
+	}               
+	#sponsors-small {
+		display:block;
+	}
+	#sponsors-small .grid_6 {
+		width:48%;
+	}  
+	#sponsors-small .top-margin {
+		margin-top:30px;
+	} 
+	#sponsors-small .extra-top-margin {
+		margin-top:50px;
+	}
+	#sponsors-small a.left-padding {
+		padding-left:40px; 
+	}
+	#agenda p.speech-title, #agenda p.speech-title {
+		display:none;
+	}
+}

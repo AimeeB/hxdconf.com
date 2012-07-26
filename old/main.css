@@ -1,0 +1,108 @@
+﻿/*===== global styles =====*/
+body {
+font-family: Arial
+background: #fff
+margin: 0
+padding 0
+
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+margin: 1ex 1em;
+
+}
+
+div#outerdiv {
+width: 1040 px;
+background: #fff url('images/bg_graphic.jpg') no-repeat;
+}
+
+/*==== header ==== */
+div#header{
+position: relative;
+width: 1040px;
+height: 1040px;
+}
+
+/* ===== logo ===== */
+#header #logo {
+position: absolute;
+left: 70px;
+top: 70px;
+}
+
+#logo {
+height: 71px;
+width: 351px;
+background: url('images/logo.png') no-repeat;
+}
+
+
+/* ===== navigation ==== */
+#header #navigation {
+position: absolute;
+left: 605px;
+top: 0px;
+}
+
+#navigation {
+height: 180px; 
+width: 435px;
+}
+/*====== content ===== */
+#content div#location{
+position: absolute;
+left: 55px;
+top: 180px;
+width: 700px;
+height: 140px;
+margin: 40px;
+padding: 35px 15px;
+background: url('images/dates_banner.png') no-repeat;
+}
+#content div#headline{
+position: absolute;
+left: 40px;
+top: 320px;
+width: 700px;
+height: 205px;
+margin: 40px;
+padding: 35px 0px;
+background: url('images/headline.png') no-repeat;
+}
+
+#content div#maincontent {
+position: absolute;
+left: 55px;
+top: 575px;
+width: 700px;
+margin: 40px;
+}
+
+#maincontent tr {
+font-family: Arial, Helvetica, sans serif;
+font-size: 15px;
+color: #fff;
+margin: 1ex 0;
+}
+
+/* === sidebar ====*/
+#content div#sidebar{
+position: absolute;
+left: 800px;
+top: 180px;
+width:240px
+}
+#sidebar tr {
+font-family: Arial, Helvetica, sans serif;
+font-size: 18px;
+color: #fff;
+margin: 1ex 0;
+}
+
+#button {
+background: url('images/sign_up.jpg');
+width:102px;
+height:40px;
+border:0px;
+}

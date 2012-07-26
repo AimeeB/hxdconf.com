@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>  <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>  <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+ <meta charset="utf-8">
+
+ <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+    More info: h5bp.com/b/378 -->
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+ <title></title>
+ <meta name="description" content="">
+ <meta name="author" content="">
+
+ <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+
+ <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+ <!-- CSS: implied media=all -->
+ <!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../css/text.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../css/grid.css" media="screen" />
+	<!-- <link rel="stylesheet" type="text/css" href="../css/layout.css" media="screen" /> -->
+	<link rel="stylesheet" type="text/css" href="../css/nav.css" media="screen" />
+	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="../css/ie6.css" media="screen" /><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="../css/ie.css" media="screen" /><![endif]-->  
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/contax.css">
+	<link rel="stylesheet" href="../css/icon-font.css">
+	<link rel="stylesheet" href="../css/tabs.css">
+	<link rel="stylesheet" href="../css/twitter.css">
+	<link rel="stylesheet" href="../css/colorbox.css">
+	
+  <!-- end CSS-->
+	<style type="text/css">
+.loader { border: 0 none; float: left; clear: both; margin: 100px 0 0 200px; }
+</style>
+	</head>
+
+<body>
+
+<div class="speaker-lightbox">
+	<img class="speaker-profile" src="../img/profile-amyCueva.jpg" alt="Amy Cueva" />
+<div class="profile-content">
+<h3 class="speaker-name">Amy Cueva</h3>
+<h5 class="speaker-title">Founder, Chief Experience Officer, and Healthcare Principal of <a href="http://madpow.com" target="_blank">Mad*Pow</a></h5>
+<h5 class="speech-title">Welcome Message</h5>
+<p class="body-text">Amy Cueva is Founder, Chief Experience Officer and healthcare principal at <a href="madpow.com">Mad*Pow</a>. Amy’s passion for user-centered design methodology has been demonstrated repeatedly in her work for clients like New England Journal of Medicine, Google, Aetna, Fidelity and McKesson. Leading a team of equally fired-up designers, developers, and UX pro’s, Amy has created strong multi-channel experience strategies, intuitive digital experiences and streamlined processes for Mad*Pow’s clients.</p>
+
+<p class="body-text">Amy is a true believer in the power of research-inspired methodology to address the challenge of competing business goals, customer needs, and technology requirements. With the state of healthcare in our country rapidly approaching a crisis point, harnessing that power has become even more critical. Amy formed the LinkedIn Healthcare UX group with that goal in mind, bringing together those invested in the design of healthcare experiences to discuss best practices, trends, challenges and the creation of standards.</p>
+
+<p class="body-text">Always happy to step up and spread the word about the importance of user-centered design, Amy is a regular speaker at a wide range of industry events. She presented at last year’s HIMSS virtual conference, the 5th Annual World Healthcare Innovation &amp; Technology Congress (WHIT5.0), at the 2010 IA Summit, and the UPA International Conference. She also led a panel on Healthcare UX Vignettes at the 2010 UPA Boston conference, a workshop on Designing Communities of Care at IDEA 2010. Additionally, Amy spoke at the 2010 Center for Connected Health Symposium and the 6th Annual World Healthcare Innovation &amp; Technology Congress (WHIT 6.0) later this year. She is the secretary and one of the charter members of the NH UPA and was selected as one of Mass High Tech’s Women to Watch in 2009.
+</p>	
+</div>
+</div>
+</body>
+</html>

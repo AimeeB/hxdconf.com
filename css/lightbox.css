@@ -1,0 +1,67 @@
+section#current-photos {
+	margin-bottom:4em;
+}
+ul#photos-list, ul#photos-list-all { 	
+   list-style-type:none;
+   padding:0; 
+}
+ul#photos-list li:first-child {
+  width:30%;
+  margin-left:0%;  
+} 
+ul#photos-list li:nth-child(2) {
+  width:66%;
+  margin-right:0%;  
+}
+ul#photos-list li:nth-child(3) {
+  clear:both;
+}
+ul#photos-list li {
+  width:30%;
+  margin:3% 2% 0% 2%;
+  display:none;
+} 
+ul#photos-list-all li {
+  width:22.5%;
+  margin:2% 1% 0% 1%; 
+  display:inline-block;
+}
+ul#photos-list li:hover, ul#photos-list-all li:hover {
+	cursor:pointer;
+}
+ul#photos-list li img, ul#photos-list-all li img {
+	max-width:100%;
+}
+ul#photos-list li:nth-child(1), ul#photos-list li:nth-child(2),  
+ul#photos-list li:nth-child(3), ul#photos-list li:nth-child(4), 
+ul#photos-list li:nth-child(5) {
+	display:inline;
+	float:left;
+	/*display:inline-block; */
+}  
+ul#photos-list li:nth-child(3), ul#photos-list li:nth-child(6) {
+	margin-left:0%;
+} 
+ul#photos-list li:nth-child(5), ul#photos-list li:nth-child(8) {
+	margin-right:0%;
+}
+#lightbox { 
+	display:none;  
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align:center;
+	z-index:1000;
+}                
+#lightbox #content, #lightbox p {
+	margin-top:20px;
+}
+#lightbox img {
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
+}
